@@ -23,4 +23,34 @@ Comp Prev
 2nd Company
   DotNet CORE
 DSA
+  Data Structures
+    1. Arrays, Strings
+        1. Problems based on Single element
+            Sortings - Selection, Insertion, Bubble, Merge, Quick
+            Searchings - Linear Search, Binary Search, Ternary and so on searches
+            Decreasing O(n) into even more Smaller
+        2. Problems based on 2 elemts
+            2-pointer Algorithm - Decreasing 2 for loops into single loop
+        3. Problems based on multiple elements (Subarray, subsequences, ... and so on)
+            2-pointers
+            Sliding Window - fixedWindow, Longest window(ans), No.of Subarrays, Smallest Window
+    2. Stacks and Queues
+        ops - push, pop, top
+        Monotonic Stack, Monotonic Queue
+    3. Linked Lists
+        Recursion, Stack, Duplicate Pointers, Slow and Fast Pointers, prev and next pointers
+    4. Trees
+        1 or 2 Nodes connected prev elements
+        -> Linked List Extended version Trees
+        1. Fundamental Trees - Normal tree(any no.of childrens), Binary Trees, Binary Search Trees
+        2. Self Balancing Trees - AVL Tree, Red-Black Tree, 2-3 Tree
+        3. Specialized Trees - Trie(Prefix Tree), Heap(Priority Queue)
+    5. Graphs
+        -> Came from the concept of any Node can be connected to any node
+        BFS, DFS, Topological Sorting, Shortest Path Algos, Minimum Spanning trees(Disjoint Set Problems), 
+        Other Algos(Tarjans(Bridges, Articulation Points), Kosaraju(Strongly Connected Components))
+  Algorithms 
+    1. Greedy Algo
+    2. Recursion
+    3. Dynamic programming
 System Design
