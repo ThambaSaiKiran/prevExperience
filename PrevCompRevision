@@ -9,7 +9,7 @@ Comp Prev
           1. Using Indexes for frequently using columns
           2. Doing Normalization (1NF, 2NF, 3NF)
           3. Query Performance measurement tools
-          4.
+          4. Leaveraging Cloud Database Specific Features
       2. During Updation of the Table
           1. Updating Data without for loop, Updating all the data at a time
       3. During Join - Mostly using Inner Join, Left Join, (Avoid using Outer Join, as it will create more duplicate)
