@@ -5,6 +5,21 @@ Comp Prev
   JQuery
   PHP
   Query Optimizations
+      1. Whie Creating the Table
+          1. Using Indexes for frequently using columns
+          2. Doing Normalization (1NF, 2NF, 3NF)
+          3. Query Performance measurement tools
+          4.
+      2. During Updation of the Table
+          1. Updating Data without for loop, Updating all the data at a time
+      3. During Join - Mostly using Inner Join, Left Join, (Avoid using Outer Join, as it will create more duplicate)
+      4. During Union - Use Union instead of Union All
+      5. During Select - Instead of Select * use Select particular Columns
+      6. At where
+          1. Use Exists Instead of In Operator
+          2. For Pagination use LIMIT, OFFSet
+      7. During SubQueries - Name the Inner Subqueries come towards outside like that (Using with ___ as (Subquery), outer_Subquery)
+      8. Stored Procedures - For repeated tasks making use of Stored Procedures
 2nd Company
   DotNet CORE
 DSA
