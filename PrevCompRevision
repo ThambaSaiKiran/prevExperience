@@ -1,5 +1,14 @@
 Comp Prev
   HTML, CSS, JavaScript
+  HTML
+    DOM, Elem Types(div or Fragments(<></>), p, h, input), Elem Creation(Types), Attributes(id, class, for, name, type), 
+    Event Handlers(Form Events, Mouse Events) - onChange, onSubmit, onBlur, BootStrap
+  CSS
+    Selectors, Types(Class, id, Type, Universal), Property: values, BOX Model(height, wodth, border, margin, Padding), 
+    Flex-box(Arrange Container elemts), CSS Grid(Container, Fluid-Container, row), MediaQueries
+  JavaScript
+    For HTML and CSS
+    For Backend Work
   MERN
 1st Company
   JQuery
