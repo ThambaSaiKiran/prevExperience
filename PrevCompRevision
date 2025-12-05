@@ -8,7 +8,9 @@ Comp Prev
     Flex-box(Arrange Container elemts), CSS Grid(Container, Fluid-Container, row), MediaQueries
   JavaScript
     For HTML and CSS
-    For Backend Work
+      Elem access, Event Handler or Event Listener, Timers or Schedulers(SetINterval, SetTimeout), (fetch(url, options), .then, .then), Callback Functions, Async-await, Local Storage.
+    For Backend Work(As normal language like python)
+      Variables to OOPs Concepts, Class, Spread and Rest parmeters, Creating Multiple Objects, Prototype, this Keyword, Promises(Async-await)
   MERN
 1st Company
   JQuery
