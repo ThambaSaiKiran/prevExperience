@@ -1,0 +1,84 @@
+To be Learnt
+  You are strong in backend
+  You have real production exposure
+  You can debug, optimize, and scale
+  You are not a fresher
+--------------------------------------- Categorizing -------------------------------------------------------------
+1. You are strong in backend
+      Backend fundamentals
+      API lifecycle
+      SQL optimization
+      Incident handling
+      DSA (medium level)
+SQL
+  SQL Internals
+  SQL Optimization
+API
+  API lifecycle
+  API Flow
+  REST API design
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+1. Summary 
+      Backend fundamentals
+      API lifecycle
+      SQL optimization
+      Incident handling
+      DSA (medium level)
+2. Project -1 
+  1. Explain the project end-to-end
+        Microservices
+        API flow
+        Database
+        Integrations  
+        Business use case
+  2. .NET Core & Microservices (DEEP EXPECTATION)
+        Middleware pipeline
+        Dependency Injection
+        Controllers vs Services
+        Async/await
+        Exception handling
+  3. REST APIs
+        HTTP verbs, Status codes, Idempotency, Pagination, Validation, Error handling
+  4. SQL PERFORMANCE OPTIMIZATION (INTERVIEW FAVORITE)
+        Indexes
+        Execution plans
+        Joins
+        Stored procedures
+        Pagination strategies
+  5. INCIDENT HANDLING (REAL-WORLD EDGE)
+        Logs
+        Stack traces
+        RCA
+        Hotfix vs permanent fix
+  6. CI/CD – AZURE DEVOPS
+        Git branching
+        PRs
+        Pipelines
+        Releases
+3. Project-2
+  1. ERP System Understanding
+      ERP modules
+      Business workflows
+      Manufacturing lifecycle
+  2. Backend Development (PHP + SQL)
+      Server-side validation
+      APIs
+      Database normalization
+  3. AUTHENTICATION & SECURITY (VERY IMPORTANT)
+  4. SQL Optimization (Again)
+  5. Delivery Challan Module (VERY GOOD POINT)
+4️⃣ SKILLS SECTION – RAPID-FIRE ROUND
+    Languages - Expect basics + use cases.
+    DSA (MANDATORY)
+
+5️⃣PERSONAL PROJECTS – HOW TO SELL THEM
+  Social Networking App
+      Recommendation logic
+      Ranking
+      Scalability
+6️⃣ CERTIFICATIONS – HOW TO ANSWER
+    AZ-900
+    “Helped me understand cloud fundamentals like scalability, availability, and cost.”
+    GATE
+    “Strengthened core CS fundamentals—OS, DBMS, networks.”
