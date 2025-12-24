@@ -1,0 +1,56 @@
+1. Query Optimazation
+      1. While Creating
+        1. Using Indexes (To be seen)
+        2. Using Normalization
+        3. Monitoring Query Performance
+        4. Leaveraging Cloud-database Specific Feature
+      2. During Updates
+        1. Instead of for loop(Making Bulk Updates)
+        2. At Select - INstead of select *, use select col names
+        3. Join - mostly (Inner, Left Join)
+        4. SubQueries - making use of CTE's
+      3. Unions - Using union all, instead of Union
+      4. At Where - Instead of IN, use Exists
+      5. Use LIMIT and Offset
+      6. Stored Procedures
+
+2. REST API's
+      What to Prepare
+          HTTP methods
+          Status codes
+          Idempotency
+          Pagination
+          Validation
+          Security
+      Okay, here's a breakdown of key concepts for REST APIs:
+      **What to Prepare:**
+      *   **Define Resources:** Identify the core data elements your API will expose (e.g., users, products, orders). Each resource should have a unique URI (Uniform Resource Identifier).
+      *   **Choose Data Format:** Decide on the format for data exchange (typically JSON).
+      *   **Plan Endpoints:** Design the URLs (endpoints) for accessing and manipulating resources.
+      *   **Implement Authentication/Authorization:** Determine how you'll secure your API.
+      *   **Consider Versioning:** Plan for future changes to your API.
+      **HTTP Methods:**
+      *   These define the action you want to perform on a resource:
+          *   **GET:** Retrieve a resource.
+          *   **POST:** Create a new resource.
+          *   **PUT:** Update an existing resource (replaces the entire resource).
+          *   **PATCH:** Partially update an existing resource.
+          *   **DELETE:** Remove a resource.
+      **Status Codes:**
+      *   The server returns these to indicate the outcome of a request. Important categories:
+          *   **2xx (Success):** 200 (OK), 201 (Created), 204 (No Content)
+          *   **3xx (Redirection):** 301 (Moved Permanently)
+          *   **4xx (Client Error):** 400 (Bad Request), 401 (Unauthorized), 403 (Forbidden), 404 (Not Found)
+          *   **5xx (Server Error):** 500 (Internal Server Error), 503 (Service Unavailable)
+      **Idempotency:**
+      *   An operation is idempotent if executing it multiple times has the same effect as executing it once. `PUT` and `DELETE` should ideally be idempotent. `POST` is generally *not* idempotent.
+      **Pagination:**
+      *   APIs often return large datasets. Pagination breaks the data into smaller, manageable chunks (pages). Clients can request specific pages using query parameters (e.g., `?page=2&limit=50`).
+      **Validation:**
+      *   APIs should validate incoming data to ensure it's correct and complete. This prevents errors and security vulnerabilities. Validate data types, formats, required fields, and data constraints. Return informative error messages to the client when validation fails (400 status code).
+      **Security:**
+      *   **Authentication:** Verifying the identity of the client (e.g., using API keys, OAuth 2.0).
+      *   **Authorization:** Determining what resources the authenticated client is allowed to access (e.g., roles and permissions).
+      *   **HTTPS:** Use HTTPS to encrypt communication between the client and server.
+      *   **Input Sanitization:** Prevent injection attacks by sanitizing user input.
+      *   **Rate Limiting:** Protect your API from abuse by limiting the number of requests a client can make within a given time period.
