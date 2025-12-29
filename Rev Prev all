@@ -13,3 +13,38 @@ Flow
       Incident Handlings
       CI/CD
       Agile
+
+1. Authentication and Authorization
+      Authentications
+            1. JWT token
+            2. Sessions through Cookies
+            3. OAuth (After organizations like (google, facebook, github) verifying sends jwt token to website)
+            3. SSO, 4.MFA
+      Authorization
+            1. RBAC (Role based Access Control)
+            2. ABAC (Attribute based Access control) - Based on User Attributes(Department, age, Clearance Level), Environmental attributes(Time of Delay, Location Type, Device)
+            3. ACL (Access Control List) (Like Google Excel - Providing permissions for list of users)
+2. Debugging (Clear Explanations in book)
+      1. Element Selector
+      2. Elements Tab
+      3. Console Tab(Working like Javascript, If any error messages present displayed here)
+      4. Sources Tab (Our Project Code is displayed here, we can put break points)
+      5. Network Tab(all api calls)
+            -> All api calls including images, we can sort, we can filter(only js, css, XML, HTml and more)
+            1. Preserve Log - telling to show the prev api calls also
+            2. Disable Cache - Telling browser not to store anything
+      6. Application Tab
+            Types of storages - Local Storage, Cookies, Cache Data
+3. Client-Side Validation and Server-Side Validation
+      1. Client Validations
+            1. In HTMl writing JS (Bypassed by disabling JS while running in browser)
+            2. Using HTML Attribute (Bypassed by calling Backend directly from Terminal or CURL from Terminal)
+      --- As both can be Bypassed we always do Server-side Validation, for additional we keep Client-side Validation
+      2. Server-Side Validation
+            on Backend Code of PHP of .Dotnet
+      In DotNEt
+            -> It has default Client-side Validations - After mentioning data Annotations on top of attributes, in HTML(Adding asp-validation-for attribute for gtting error messages)
+            -> Server-side - DataAnnotionas and ModelState.ISvalid, based on Model State we will move Forward
+            By default Client-Side Validation is disabled, we enable it if needed
+4. REST Api
+      
