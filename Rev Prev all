@@ -46,5 +46,12 @@ Flow
             -> It has default Client-side Validations - After mentioning data Annotations on top of attributes, in HTML(Adding asp-validation-for attribute for gtting error messages)
             -> Server-side - DataAnnotionas and ModelState.ISvalid, based on Model State we will move Forward
             By default Client-Side Validation is disabled, we enable it if needed
-4. REST Api
-      
+4. (API Design) REST Api (Clear Explanation in Book)
+      1. REST API vs GRAph QL vs GRPC
+      2. When to choose HTTP, WebSockets, AMQP, GRPC
+      3. How to apply Security Practices - (RateLimiting, CORS, SQL Injections, Firewalls, CSRF< XXS)
+      4. Which type of Auth (Basic base64, Bearer, Access vs Refresh, JWT, OAuth2, SSO)
+5. Dot NET MicroServices
+      -> Each WEB API is considered as a MicroService in .Net
+      -> API to API - Communication can be done through Service bus
+      -> Client to APIs - Communication through POST, PUT, Update Calls
