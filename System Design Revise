@@ -56,11 +56,27 @@ Video-1 (System Design Concepts Course and Interview Prep)
     7. API Design (REST API, GraphQL, Grpc, Rate Limiters, CORS)
           Here Rate Limiters used for filtering incoming traffic for API
     8. Caching and CDNs
+        Types of Caching
+        1. Client Side Caching
+        2. Server-Side Caching (Write-around, write-back, Write-on)
+        3. Database Caching
+        4. CDN(Content Delivery Network) - (Push-based, Pull-based)
     9. Proxy Servers (Forward/Reverse Proxies)
+                -> Present b/w Client and Server (They can be anything like Load Balancers, Forward Proxies)
+                Forward Proxies - (Validating Data coming from user and then forwarding to uset)
+                Reverse Proxies(Load Balancers) - Decide which Server to handle the request
     10. Load Balancers
     11. Databases (Sharding, Replication, ACID, Vertical & Horizontal Scaling)
-
--> Firstly we look over Vertical Scaling(as there will be limit for capacity for a single resourse, So, we make use of Horizontal Scaling)
+                1. Choosing what Database to use
+                2. Caching the Database Result (For frequent queries results)
+                3. When Can't Handle or To Handle Huge requests or Large no.of Users (Scaling is the Option)
+                        1. Vertical Scaling (Increasing Capacity of resource)
+                                -> There will be Limit of Increasing Capacity of anything (Called as Single Point of Failure)
+                                -> So, Use Horzontal Scaling
+                        2. Horizontal Scaling
+                                Shrading 
+                                Replication
+                -> Firstly we look over Vertical Scaling(as there will be limit for capacity for a single resourse, So, we make use of Horizontal Scaling)
 
 ⌨️ (00:00) Introduction
 ⌨️ (00:39) Computer Architecture (Disk Storage, RAM, Cache, CPU)
