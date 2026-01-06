@@ -1,4 +1,6 @@
 Video-1 (System Design Concepts Course and Interview Prep)
+####### Below topics cover Some videos of GauravSen's System Design Series and uncovered are below #########################
+        5,11, 12, From (15,16,17,18,24) To be Covered
 ⌨️ (00:00) Introduction
 ⌨️ (00:39) Computer Architecture (Disk Storage, RAM, Cache, CPU)
 ⌨️ (04:22) Production App Architecture (CI/CD, Load Balancers, Logging & Monitoring)
@@ -49,11 +51,14 @@ Video-1 (System Design Concepts Course and Interview Prep)
     4. Speed Designed System   
           ThroughPut (Server Throughput, DB Throughput, Data Throughput)
           Latency (how much time request taking)
-5.Networking (TCP, UDP, DNS, IP Addresses & IP Headers)
-6. Application Layer Protocols (HTTP, WebSockets, WebRTC, MQTT, etc)
-7. API Design (REST API, GraphQL, Grpc, Rate Limiters, CORS)
-      Here Rate Limiters used for filtering incoming traffic for API
-8. Caching and CDNs
+    5.Networking (TCP, UDP, DNS, IP Addresses & IP Headers)
+    6. Application Layer Protocols (HTTP, WebSockets, WebRTC, MQTT, etc)
+    7. API Design (REST API, GraphQL, Grpc, Rate Limiters, CORS)
+          Here Rate Limiters used for filtering incoming traffic for API
+    8. Caching and CDNs
+    9. Proxy Servers (Forward/Reverse Proxies)
+    10. Load Balancers
+    11. Databases (Sharding, Replication, ACID, Vertical & Horizontal Scaling)
 
 -> Firstly we look over Vertical Scaling(as there will be limit for capacity for a single resourse, So, we make use of Horizontal Scaling)
 
