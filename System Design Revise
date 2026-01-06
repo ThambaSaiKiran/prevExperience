@@ -1,0 +1,70 @@
+Video-1 (System Design Concepts Course and Interview Prep)
+⌨️ (00:00) Introduction
+⌨️ (00:39) Computer Architecture (Disk Storage, RAM, Cache, CPU)
+⌨️ (04:22) Production App Architecture (CI/CD, Load Balancers, Logging & Monitoring)
+⌨️ (07:12) Design Requirements (CAP Theorem, Throughput, Latency, SLOs and SLAs)
+⌨️ (14:40) Networking (TCP, UDP, DNS, IP Addresses & IP Headers)
+⌨️ (19:03) Application Layer Protocols (HTTP, WebSockets, WebRTC, MQTT, etc)
+⌨️ (24:01) API Design
+⌨️ (29:19) Caching and CDNs
+⌨️ (36:33) Proxy Servers (Forward/Reverse Proxies)
+⌨️ (42:36) Load Balancers
+⌨️ (48:05) Databases (Sharding, Replication, ACID, Vertical & Horizontal Scaling)
+    1. Accessing Data
+          CPU first tries accesssing Data from Cache (first tries in L1 cache -> then L2 -> Then L3)
+          If not Found in Cache (Start search in Primmary Memory - RAM)
+          If not Found in Ram, (Start Search in Secondary Memory - Disk)
+    2. High Level Architechture of Production-Ready App
+          Repo Code        
+            (OR)      ->  CI/CD Pipeline  -> Uploaded to Server(Production App)
+          VSCode                                    |
+                                            Load Balancer and Reverse Proxies like(Ngx)
+                                                  |
+                                              High No.of Users
+          
+          Developer (VS Code)
+                  |
+                  v
+               CI/CD
+                  |
+               Jenkins
+                  |
+            Application Servers
+                  |
+               Load Balancer (NGINX)
+                  |
+                Users
+          
+          Application Servers
+             |        |
+            DB      Monitoring
+                    (Sentry, PM2)
+                        |
+                     Alerts -> Slack
+    3. Design Requirements (CAP Theorem)
+          -> Only any 2 of above Properties can be applied to Distributed System
+          -> Or A Distributed System can acheive only 2 of above properties
+          Availability (SLO, SLA)
+          Partition Tolerance (OR) Resiliance - (Reliability, Fault Tolerance, Redundancy)
+    4. Speed Designed System   
+          ThroughPut (Server Throughput, DB Throughput, Data Throughput)
+          Latency (how much time request taking)
+5.Networking (TCP, UDP, DNS, IP Addresses & IP Headers)
+6. Application Layer Protocols (HTTP, WebSockets, WebRTC, MQTT, etc)
+7. API Design (REST API, GraphQL, Grpc, Rate Limiters, CORS)
+      Here Rate Limiters used for filtering incoming traffic for API
+8. Caching and CDNs
+
+-> Firstly we look over Vertical Scaling(as there will be limit for capacity for a single resourse, So, we make use of Horizontal Scaling)
+
+⌨️ (00:00) Introduction
+⌨️ (00:39) Computer Architecture (Disk Storage, RAM, Cache, CPU)
+⌨️ (04:22) Production App Architecture (CI/CD, Load Balancers, Logging & Monitoring)
+⌨️ (07:12) Design Requirements (CAP Theorem, Throughput, Latency, SLOs and SLAs)
+⌨️ (14:40) Networking (TCP, UDP, DNS, IP Addresses & IP Headers)
+⌨️ (19:03) Application Layer Protocols (HTTP, WebSockets, WebRTC, MQTT, etc)
+⌨️ (24:01) API Design
+⌨️ (29:19) Caching and CDNs
+⌨️ (36:33) Proxy Servers (Forward/Reverse Proxies)
+⌨️ (42:36) Load Balancers
+⌨️ (48:05) Databases (Sharding, Replication, ACID, Vertical & Horizontal Scaling)
