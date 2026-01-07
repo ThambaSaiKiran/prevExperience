@@ -77,6 +77,10 @@ Video-1 (System Design Concepts Course and Interview Prep)
                                 Shrading 
                                 Replication
                 -> Firstly we look over Vertical Scaling(as there will be limit for capacity for a single resourse, So, we make use of Horizontal Scaling)
+        12. Message Queues
+        13. Publisher-Subscriber Model   
+                1. Request-Response Architecture
+                2. Event-Driven Architechture
 
 ⌨️ (00:00) Introduction
 ⌨️ (00:39) Computer Architecture (Disk Storage, RAM, Cache, CPU)
@@ -89,3 +93,8 @@ Video-1 (System Design Concepts Course and Interview Prep)
 ⌨️ (36:33) Proxy Servers (Forward/Reverse Proxies)
 ⌨️ (42:36) Load Balancers
 ⌨️ (48:05) Databases (Sharding, Replication, ACID, Vertical & Horizontal Scaling)
+
+=============================================================================================================================
+11. System Design Questions Practise
+        https://youtube.com/playlist?list=PLdNCznBZ77NqqZMrLPRb1RLm7LObOCb21&si=DFlo05xUZDP1DMae
+        https://youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX&si=RG37mtwdRXAo8UaT
